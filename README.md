@@ -18,13 +18,23 @@ Most of this code is adopted from [AutoGluon](https://github.com/awslabs/autoglu
 
 ## Setup Instructions 
 
-Before beginning the hands-on tutorials, please [install AutoGluon](https://autogluon.mxnet.io/install.html). 
+### Provided GPU machine
 
-Most tutorials require you to install MXNet and you can install MXNet by following the guide in [install MXNet](https://sxjscience.github.io/KDD2020/).
-One tutorial also requires you to install [Pytorch](https://pytorch.org/).
+For the week of the KDD conference, we will provide access to cloud GPUs to run the hands-on tutorials. 
+To access one of these machines (which will be available to you for 6 hours), please send an email to: `kdd20-autogluon@request-nb.mxnet.io`
+and you will receive an automated reply with instructions on how to get started. Once you have access to one of these instances, all prerequisite packages will already be installed and all hands-on notebooks are already available to run on the instance.
 
-A Linux machine with GPU is recommended, although you should be able to easily run the tabular data tutorials on a Mac laptop as well. 
-For the week of the KDD conference, we will provide access to cloud GPUs to run the hands-on tutorials (stay tuned).
+### Your own machine
+
+Before running the hands-on tutorials on your own machine, please [install AutoGluon](https://autogluon.mxnet.io/install.html). In the installation instructions, please select the **SOURCE** option under **VERSION** which will provide you with a command to install the most up-to-date AutoGluon code (needed for Tutorials #8-10). You can alternatively use the following installation command (which will install a recent pre-release version):
+
+`python3 -m pip install autogluon==0.0.13b20200822`
+
+You'll also need to install MXNet by following [this guide](https://sxjscience.github.io/KDD2020/). 
+Tutorial #7 also requires you to first install [Pytorch](https://pytorch.org/).
+
+A Linux machine with GPU is recommended, although you should be able to easily run the tabular data tutorials (#1-4) on a Mac laptop as well. All tutorials should be run in either Python 3.6 or 3.7. 
+
 
 ## Hands-on Tutorials
 
@@ -40,7 +50,7 @@ For the week of the KDD conference, we will provide access to cloud GPUs to run 
 
 [6. AutoML with Image data - Hyperparameter Optimization](https://github.com/jwmueller/KDD20-tutorial/blob/master/6.ImageData-HyperparameterOptimization.ipynb)
 
-[7. Tuning your own models](https://github.com/jwmueller/KDD20-tutorial/blob/master/7.CustomModelHPO.ipynb)  (install [Pytorch](https://pytorch.org/) to run 2nd half of this tutorial) 
+[7. Tuning your own models](https://github.com/jwmueller/KDD20-tutorial/blob/master/7.CustomModelHPO.ipynb)
 
 [8. AutoML with Text data - Using AutoGluon](https://github.com/jwmueller/KDD20-tutorial/blob/master/8.TextData-UsingAutoGluon.ipynb)
 
